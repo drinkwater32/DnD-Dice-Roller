@@ -51,6 +51,36 @@ body {
     font-weight: bold;
 }
 
+/* CSS for d4 (Square) */
+.d4::before {
+    content: "d4";
+}
+
+/* CSS for d6 (Square) */
+.d6::before {
+    content: "d6";
+}
+
+/* CSS for d8 (Square) */
+.d8::before {
+    content: "d8";
+}
+
+/* CSS for d10 (Square) */
+.d10::before {
+    content: "d10";
+}
+
+/* CSS for d12 (Square) */
+.d12::before {
+    content: "d12";
+}
+
+/* CSS for d20 (Square) */
+.d20::before {
+    content: "d20";
+}
+
 /* Result Message */
 .result-message {
     color: #fff;
